@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#81C8FE</color>
+    <color name="colorPrimaryDark">#BDBDBD</color>
+    <color name="colorAccent">#81C8FE</color>
+
+    <color name="default_shadow_color">#88757575</color>
+    <color name="shadow">#3A000000</color>
+    <color name="black">#151414</color>
+
+    <color name="transparency">#00000000</color>
+    <color name="white">#FFFFFF</color>
+    <color name="red">#FF0000</color>
+
+    <color name="text_gray_1">#7A7A7A</color>
+    <color name="text_gray_2">#8B8B8B</color>
+    <color name="text_gray_3">#A7A7A7</color>
+
+    <color name="line_gray">#D4D4D4</color>
+    <color name="bg_gray">#F2F2F2</color>
+    <color name="bg_gray_shade">#E2E2E2</color>
+    <color name="bg_gray_code">#999999</color>
+    <color name="bg_blue_login_n">#81C8FE</color>
+    <color name="bg_blue_login_p">#78B3E0</color>
+
+    <color name="dialog_list_bg">#FF9966</color>
+    <color name="dialog_list_namepwd">#0099FF</color>
+    <color name="main_bottom_layout_color">#E8E8E8</color>
+    <color name="main_green">#46D3B3</color>
+    <color name="main_title_bar_color">#D7D7D7</color>
+    <color name="user_name_color">#0099FF</color>
+    <color name="face_top_bar">#E8E8E8</color>
+    <color name="face_bg">#2C2C2C</color>
+    <color name="person_main_color">#F2F2F2</color>
+    <color name="person_item_onlick_color">#D7D7D7</color>
+</resources>

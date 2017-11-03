@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.guojia.robot">
+
+    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.CHANGE_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.CHANGE_WIFI_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    //微信
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+
+    <application
+        android:name=".application.GJApplication"
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".camerainfo.TakePhoteActivity"/>
+        <activity android:name=".camerainfo.ShowCropperedActivity"/>
+        <activity
+            android:name=".activity.GuideActivity"
+            android:configChanges="screenSize|keyboardHidden|orientation"
+            android:screenOrientation="sensorLandscape"
+            android:windowSoftInputMode="stateHidden|adjustResize" />
+        <activity
+            android:name=".activity.MainActivity"
+            android:configChanges="screenSize|keyboardHidden|orientation"
+            android:screenOrientation="sensorLandscape"
+            android:windowSoftInputMode="stateHidden|adjustResize" />
+        <activity
+            android:name=".activity.WelcomeActivity"
+            android:configChanges="screenSize|keyboardHidden|orientation"
+            android:screenOrientation="sensorLandscape"
+            android:windowSoftInputMode="stateHidden|adjustResize" />
+        <activity
+            android:name=".activity.VoiceActivity"
+            android:configChanges="screenSize|keyboardHidden|orientation"
+            android:screenOrientation="sensorLandscape" />
+        <activity
+            android:name=".activity.FaceActivity"
+            android:configChanges="screenSize|keyboardHidden|orientation"
+            android:screenOrientation="sensorLandscape" />
+        <activity
+            android:name=".activity.LoginActivity"
+            android:configChanges="screenSize|keyboardHidden|orientation"
+            android:screenOrientation="sensorLandscape"
+            android:windowSoftInputMode="stateHidden|adjustResize">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".activity.RegistActivity"
+            android:configChanges="screenSize|keyboardHidden|orientation"
+            android:screenOrientation="sensorLandscape"
+            android:windowSoftInputMode="stateHidden|adjustResize" />
+        <activity
+            android:name="com.tencent.connect.common.AssistActivity"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+        <activity
+            android:name="com.tencent.tauth.AuthActivity"
+            android:launchMode="singleTask"
+            android:noHistory="true">
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.BROWSABLE" />
+
+                <data android:scheme="tencent1106412259" />
+            </intent-filter>
+        </activity>
+
+        <receiver android:name=".receiver.MyReceiver">
+            <intent-filter android:priority="2147483647">
+                <action android:name="android.net.wifi.supplicant.STATE_CHANGE" />
+            </intent-filter>
+        </receiver>
+
+        <activity android:name=".activity.PersonalActivity" />
+        <activity android:name=".activity.SearchActivity" />
+        <activity android:name=".activity.VoiceSearchActivity" />
+        <activity android:name=".activity.QRSearchActivity" />
+        <activity android:name=".activity.VoiceSetActivity" />
+        <activity android:name=".activity.FaceSetActivity"></activity>
+    </application>
+
+</manifest>

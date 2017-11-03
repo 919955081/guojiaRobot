@@ -1,0 +1,75 @@
+<resources>
+    <string name="app_name">国镓机器人</string>
+
+    <string name="skip_time">跳过 3 秒</string>
+    <string name="login_dlzc">登录/注册</string>
+    <string name="login_zszw">专属自我</string>
+    <string name="login_sfdl">三方登录</string>
+    <string name="login_id">账号：</string>
+    <string name="login_pwd">密码：</string>
+    <string name="login_remember_pwd">记住密码</string>
+    <string name="login_forget_pwd">忘记密码？</string>
+    <string name="login_login">登录</string>
+    <string name="login_regist">没有账号去注册</string>
+    <string name="login_tourist">我是游客>></string>
+
+    <string name="regist_regist">注册账号</string>
+    <string name="regist_forget_pwd">忘记密码</string>
+    <string name="regist_set_pwd">设置密码</string>
+    <string name="regist_id">账号：</string>
+    <string name="regist_code">验证码：</string>
+    <string name="regist_new_pwd">新密码：</string>
+    <string name="regist_again_pwd">再次确认：</string>
+    <string name="regist_ok">完成</string>
+    <string name="regist_code_num">59</string>
+
+    <string name="dialog_wifi_name_list">主人：为您找到以下热点，请说连接第几个！</string>
+    <string name="dialog_wifi_pwd_speak">主人：请说出密码，或输入密码！</string>
+    <string name="dialog_wifi_pwd_speak_no">主人：我没有听清你说的密码！</string>
+    <string name="dialog_wifi_pwd_list">主人：为您找到以下密码，请说选择第几个！</string>
+
+    <string name="app_key">"59e05af7</string>
+    <string name="goback">跳过</string>
+    <string name="tencent_app_id">1106412259</string>
+    <string name="weibosdk_toast_auth_success">授权成功</string>
+    <string name="weibosdk_toast_auth_canceled">取消授权</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="tv_teacher_room">名师课堂</string>
+    <string name="tv_edu">素质教育</string>
+    <string name="tv_mine">关于我的</string>
+    <string name="main_title_user_name">晨曦</string>
+    <string name="main_user_flag_name">锋芒毕露</string>
+    <string name="main_subject">学科</string>
+    <string name="now_pk">立即挑战</string>
+    <string name="right_now">马上体验</string>
+    <string name="find_myself">找回自我</string>
+    <string name="btn_msg">最我先知</string>
+    <string name="person_bar_name">个人中心</string>
+    <string name="person_base_data">基本资料</string>
+    <string name="setting_data">设置</string>
+    <string name="login_out">退出登录</string>
+    <string name="person_base_head_tv">头像</string>
+    <string name="person_base_name">昵称</string>
+    <string name="person_base_phone">手机号</string>
+    <string name="person_base_sex">性别</string>
+    <string name="person_base_age">年龄</string>
+    <string name="person_base_email">邮箱</string>
+    <string name="person_base_address">地址</string>
+    <string name="person_set_pwd">修改密码</string>
+    <string name="person_set_voice_ver">语音识别</string>
+    <string name="person_set_face_ver">面部识别</string>
+    <string name="person_set_about_us">关于我们</string>
+    <string name="person_set_help">帮助反馈</string>
+    <string name="person_set_kefu_num">客服电话</string>
+    <string name="person_set_clear">清除缓存</string>
+    <string name="voice_search">语音搜索</string>
+    <string name="qr_top_tv">扫一扫</string>
+    <string name="add_voice">添加语音</string>
+    <string name="add_face">添加面部信息</string>
+    <string name="voice_name">语音识别</string>
+    <string name="voice_hint_pwd">请您念出密码  "芝麻开门"</string>
+    <string name="action_settings">setting</string>
+
+</resources>

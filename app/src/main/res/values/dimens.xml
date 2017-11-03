@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="main_bottom_pic_wh">45dp</dimen>
+    <dimen name="main_bottom_item_layout_width">103dp</dimen>
+    <dimen name="main_bottom_layout_marginLeft">180dp</dimen>
+    <dimen name="search_radius">5dp</dimen>
+    <dimen name="main_title_bottom_textsize">20sp</dimen>
+    <dimen name="main_title_bottom_iv_top">18dp</dimen>
+    <dimen name="main_title_top_textsize">15sp</dimen>
+    <dimen name="person_base_textsize">18sp</dimen>
+    <dimen name="person_base_item_height">60dp</dimen>
+    <dimen name="person_base_item_intor_hw">30dp</dimen>
+    <dimen name="person_set_tv_height">60dp</dimen>
+    <dimen name="main_indicator_pic_size">18dp</dimen>
+    <dimen name="textsize">20sp</dimen>
+    <dimen name="qr_search_iv_size">50dp</dimen>
+</resources>

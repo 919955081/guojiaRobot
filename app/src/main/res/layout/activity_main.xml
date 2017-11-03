@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+  >
+    <TextView
+        android:layout_below="@+id/main_top_title_bar"
+        android:layout_above="@+id/main_bottom_title_bar"
+        android:background="@mipmap/viewpager_bg"
+        android:layout_gravity="center_vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+<include layout="@layout/main_top_title_bar_layout"/>
+
+ <android.support.v4.view.ViewPager
+     android:id="@+id/main_item_vp"
+     android:layout_gravity="center_vertical"
+     android:layout_width="match_parent"
+     android:layout_height="430dp"
+     ></android.support.v4.view.ViewPager>
+<LinearLayout
+    android:layout_width="80dp"
+    android:layout_height="wrap_content"
+    android:layout_gravity="bottom|center_horizontal"
+    android:layout_marginBottom="120dp"
+    >
+    <ImageView
+        android:id="@+id/main_indicator_iv1"
+        android:layout_width="@dimen/main_indicator_pic_size"
+        android:layout_height="@dimen/main_indicator_pic_size"
+        android:background="@mipmap/main_indicator_choice"
+        />
+    <ImageView
+        android:id="@+id/main_indicator_iv2"
+        android:layout_width="@dimen/main_indicator_pic_size"
+        android:layout_height="@dimen/main_indicator_pic_size"
+        android:layout_marginLeft="25dp"
+        android:background="@mipmap/main_indicator_normal"
+        />
+
+</LinearLayout>
+<include layout="@layout/main_bottom_bar_layout"/>
+    <RelativeLayout
+        android:visibility="gone"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="right|bottom"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginBottom="80dp"
+        android:layout_marginRight="40dp"
+        >
+        <include layout="@layout/float_robot_layout"
+            /></RelativeLayout>
+</FrameLayout>

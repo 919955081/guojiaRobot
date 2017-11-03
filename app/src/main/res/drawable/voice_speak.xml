@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="1024dp"
+    android:height="1024dp"
+    android:viewportWidth="1024"
+    android:viewportHeight="1024">
+
+    <path
+        android:fillColor="#f4ea2a"
+        android:pathData="M800 320C782.336 320 768 334.336 768 352L768 448c0 141.12-114.88 256-256 256S256
+589.12 256 448L256 352C256 334.336 241.664 320 224 320S192 334.336 192 352L192
+448c0 154.496 110.144 283.84 256 313.472L448 896 384 896l0 64 256 0 0-64L576
+896l0-134.528c145.856-29.696 256-158.976 256-313.472L832 352C832 334.336 817.664
+320 800 320zM512 640c105.6 0 192-86.4 192-192L704
+256c0-105.6-86.4-192-192-192S320 150.4 320 256l0 192C320 553.6 406.4 640 512
+640z" />
+</vector>

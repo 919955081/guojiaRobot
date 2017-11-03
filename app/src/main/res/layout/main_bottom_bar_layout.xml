@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/main_bottom_title_bar"
+        android:orientation="horizontal"
+        android:background="@color/main_bottom_layout_color"
+        android:layout_width="match_parent"
+        android:layout_height="110dp"
+        android:paddingLeft="225dp"
+        android:paddingRight="225dp"
+        android:layout_gravity="bottom"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true">
+        <RelativeLayout
+            android:layout_weight="1"
+            android:background="@color/main_green"
+            android:id="@+id/bottom_teacher_room_layout"
+            android:layout_width="@dimen/main_bottom_item_layout_width"
+            android:layout_height="match_parent"
+            android:layout_centerHorizontal="true"
+            android:layout_alignParentTop="true">
+
+            <ImageView
+                android:id="@+id/iv_teacher_room"
+                android:layout_width="@dimen/main_bottom_pic_wh"
+                android:layout_height="@dimen/main_bottom_pic_wh"
+                android:layout_gravity="center_horizontal"
+                android:background="@mipmap/teacher_room_icon"
+                android:layout_alignParentTop="true"
+                android:layout_marginTop="@dimen/main_title_bottom_iv_top"
+                android:layout_centerHorizontal="true" />
+            <TextView
+                android:layout_below="@+id/iv_teacher_room"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/tv_teacher_room"
+                android:textSize="@dimen/main_title_bottom_textsize"
+                android:layout_marginTop="5dp"
+                android:textColor="@color/white"
+                android:layout_centerHorizontal="true"
+                />
+
+        </RelativeLayout>
+        <RelativeLayout
+            android:id="@+id/bottom_edu_layout"
+            android:layout_weight="1"
+            android:layout_width="@dimen/main_bottom_item_layout_width"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="@dimen/main_bottom_layout_marginLeft"
+            android:layout_centerHorizontal="true"
+            android:layout_alignParentTop="true">
+
+            <ImageView
+                android:id="@+id/iv_edu"
+                android:layout_width="@dimen/main_bottom_pic_wh"
+                android:layout_height="@dimen/main_bottom_pic_wh"
+                android:layout_gravity="center_horizontal"
+                android:background="@mipmap/edu_icon"
+                android:layout_alignParentTop="true"
+                android:layout_marginTop="@dimen/main_title_bottom_iv_top"
+                android:layout_centerHorizontal="true" />
+            <TextView
+                android:layout_below="@+id/iv_edu"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="@dimen/main_title_bottom_textsize"
+                android:text="@string/tv_edu"
+                android:layout_marginTop="5dp"
+                android:layout_centerHorizontal="true"
+                />
+
+        </RelativeLayout>
+        <RelativeLayout
+            android:id="@+id/bottom_mine_layout"
+            android:layout_width="@dimen/main_bottom_item_layout_width"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:textSize="@dimen/main_title_bottom_textsize"
+            android:layout_marginLeft="@dimen/main_bottom_layout_marginLeft"
+            android:layout_centerHorizontal="true"
+            android:layout_alignParentTop="true">
+
+            <ImageView
+                android:id="@+id/iv_mine"
+                android:layout_width="@dimen/main_bottom_pic_wh"
+                android:layout_height="@dimen/main_bottom_pic_wh"
+                android:layout_gravity="center_horizontal"
+                android:background="@mipmap/mine_icon"
+                android:layout_alignParentTop="true"
+                android:layout_marginTop="@dimen/main_title_bottom_iv_top"
+                android:layout_centerHorizontal="true" />
+            <TextView
+                android:layout_below="@+id/iv_mine"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="@dimen/main_title_bottom_textsize"
+                android:text="@string/tv_mine"
+                android:layout_marginTop="5dp"
+                android:layout_centerHorizontal="true"
+                />
+
+        </RelativeLayout>
+
+    </LinearLayout>
+
